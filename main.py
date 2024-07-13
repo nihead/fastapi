@@ -9,4 +9,4 @@ async def root():
 
 @app.get("/version")
 async def version():
-    return {"This is cloned version"}
+    return {"info":"This is cloned version"}
